@@ -1,0 +1,67 @@
+@keyframes brand-flash {
+    0% {opacity: .9; box-shadow: none; }
+    40% {opacity: .9; box-shadow: none; }
+    50% {opacity: .4; box-shadow: 0px 0px 0px 0px rgba(158, 219, 217, 1); }
+    60% {opacity: .9; box-shadow: none; }
+    100% {opacity: .9; box-shadow: none; }
+}
+
+.navbar-brand img{
+    animation-name: brand-flash;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    &:hover {
+        animation-name: none;
+        opacity: 1;
+        box-shadow: 0px 0px 0px 0px rgba(158, 219, 217, 1);
+    }
+}
+
+.navbar{
+    background-color: #FFF;
+}
+
+.navbar-default{
+    box-shadow: 0px 0px 10px #dedede;
+    border-bottom: none;
+}
+
+.s{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.nno{
+    -webkit-transform: rotate(22.5deg);
+    -moz-transform: rotate(22.5deg);
+    -ms-transform: rotate(22.5deg);
+    -o-transform: rotate(22.5deg);
+    transform: rotate(22.5deg);
+}
+
+.no{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ono{
+    -webkit-transform: rotate(56.25deg);
+    -moz-transform: rotate(56.25deg);
+    -ms-transform: rotate(56.25deg);
+    -o-transform: rotate(56.25deg);
+    transform: rotate(56.25deg);
+}
+.test{
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
